@@ -26,7 +26,7 @@ public class Controller {
 	}
 	
 	//get all tasks
-	@GetMapping("/alltasks")
+	@GetMapping("/allTasks")
 	public List<TaskModel> getAllTasks(){
 		return (List<TaskModel>) TaskRepo.findAll();
 	}
